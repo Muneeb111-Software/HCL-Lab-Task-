@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Page | HCL Task</title>
+    <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <i class="fas fa-rocket"></i>
+            <span>HCL Task</span>
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome To <span>My World</span></h1>
+            <p>I create amazing web experiences that are fast, modern, and beautiful.</p>
+            <button id="clickBtn" class="btn">Get Started <i class="fas fa-arrow-right"></i></button>
+        </div>
+        <div class="hero-image">
+            <i class="fas fa-laptop-code"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About <span>Me</span></h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a passionate web developer who loves creating beautiful and functional websites. I work with HTML, CSS, and JavaScript to bring ideas to life.</p>
+                <div class="skills">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>React</span>
+                </div>
+            </div>
+            <div class="about-stats">
+                <div class="stat">
+                    <h3>20+</h3>
+                    <p>Projects</p>
+                </div>
+                <div class="stat">
+                    <h3>15+</h3>
+                    <p>Happy Clients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My <span>Projects</span></h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <i class="fas fa-store"></i>
+                <h3>E-Commerce Site</h3>
+                <p>Online store with cart and payment</p>
+            </div>
+            <div class="project-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Analytics Dashboard</h3>
+                <p>Real-time data visualization</p>
+            </div>
+            <div class="project-card">
+                <i class="fas fa-music"></i>
+                <h3>Music Player</h3>
+                <p>Beautiful music streaming app</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact <span>Me</span></h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made  <i class="fas fa-heart"></i> by Muneeb & Shariq | HCL Lab Task</p>
+    </footer>
+
+    <!-- Popup Message -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <i class="fas fa-smile-wink"></i>
+            <h3>Hello!</h3>
+            <p>Thanks for visiting my webpage!</p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
